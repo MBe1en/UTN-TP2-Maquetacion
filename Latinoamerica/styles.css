@@ -11,7 +11,6 @@ header {
     vertical-align: middle;
     border-radius: 0 0 50% 0% / 30%;
 
-    /* font-family: "Londrina Solid", sans-serif, cursive; */
     font-family: 'Salsa', cursive;
     font-size: 16px;
     text-shadow: rgb(44, 80, 48) 55px 5px 10px;
@@ -97,7 +96,6 @@ nav {
         0px -1px 1px rgba(0, 0, 0, 0.3);
 }
 
-
 .content {
     display: flex;
     flex-direction: row;
@@ -118,7 +116,6 @@ nav {
     text-align: justify;
     font-size: 15px;
     padding-top: 5px;
-    /* overflow: scroll; */
 }
 
 .images {
@@ -131,13 +128,11 @@ nav {
 }
 
 .toTop {
-    /* place-self:end; */
     position:sticky;
     top: 80%;
     left:15px; 
     width: 20px;
     
-    /* visual styling */
     text-decoration: none;
     padding: 10px 10px 10px 15px;
     font-family: "Roboto", sans-serif;
@@ -150,13 +145,12 @@ nav {
 
   }
   
-
 footer {
     background: #2d6653;
     width: 100vw;
     height: 50px;
-    position: fixed;
-    bottom: 0;
+    bottom: 0px;
+    position: relative;
 }
 
 footer p {
